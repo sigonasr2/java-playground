@@ -3,9 +3,16 @@
  */
 package HelloWorld;
 
+import java.util.HashMap;
+
 public class Library {
 	public static void main(String[] args) {
-        System.out.println("Hello World!");
+		String name = "This is a name";
+		
+		
+		Song thisSong = new Song("Catch the Wave",180,"kz");
+		
+		System.out.println(name);
     }
     public boolean someLibraryMethod() {
         return true;
